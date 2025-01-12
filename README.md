@@ -1,0 +1,3 @@
+# React Native FlatList: Invalid Key Error
+
+This repository demonstrates a common error in React Native's FlatList component: the 'Invalid key' error. This error occurs when the `keyExtractor` function doesn't provide unique keys for each item in the data array, leading to issues in rendering and item identification.  The solution focuses on ensuring unique keys, using a robust `keyExtractor` function or adjusting the data structure to guarantee uniqueness.
